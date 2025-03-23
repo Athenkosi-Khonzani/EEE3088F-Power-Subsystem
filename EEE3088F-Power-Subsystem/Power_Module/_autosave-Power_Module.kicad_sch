@@ -1509,6 +1509,44 @@
 		)
 	)
 	(sheet
+		(at 143.51 62.23)
+		(size 85.09 74.93)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b09c1994-82e6-44c7-a576-7966f5167e97")
+		(property "Sheetname" "Load_Switches"
+			(at 143.51 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "load_switches.kicad_sch"
+			(at 143.51 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Module"
+				(path "/47f090c2-d6cf-408b-9ebb-8bc95ae8c454"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 143.51 153.67)
 		(size 85.09 90.17)
 		(fields_autoplaced yes)
