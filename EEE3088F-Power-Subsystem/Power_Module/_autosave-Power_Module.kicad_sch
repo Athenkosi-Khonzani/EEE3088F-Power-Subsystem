@@ -1471,6 +1471,44 @@
 		)
 	)
 	(sheet
+		(at 243.84 62.23)
+		(size 90.17 73.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e0819b4-76cc-421c-9544-2c6c066253b4")
+		(property "Sheetname" "Regulators"
+			(at 243.84 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulators.kicad_sch"
+			(at 243.84 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Module"
+				(path "/47f090c2-d6cf-408b-9ebb-8bc95ae8c454"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 143.51 153.67)
 		(size 85.09 90.17)
 		(fields_autoplaced yes)
