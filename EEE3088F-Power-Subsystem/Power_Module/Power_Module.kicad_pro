@@ -398,6 +398,14 @@
     [
       "4c9c44b9-f85c-4ec6-9dc1-2cfc722991d0",
       "Usb_Charging"
+    ],
+    [
+      "7e0819b4-76cc-421c-9544-2c6c066253b4",
+      "Regulators"
+    ],
+    [
+      "b09c1994-82e6-44c7-a576-7966f5167e97",
+      "Load_Switches"
     ]
   ],
   "text_variables": {}
