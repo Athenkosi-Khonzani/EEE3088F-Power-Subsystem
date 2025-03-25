@@ -1471,7 +1471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 115.062 92.71 90)
 			(effects
 				(font
@@ -1490,6 +1490,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17415"
 			(at 116.84 92.71 0)
 			(effects
 				(font
@@ -1731,7 +1748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.8k"
+		(property "Value" "4.7k"
 			(at 166.37 82.5499 0)
 			(effects
 				(font
@@ -1740,7 +1757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 162.052 81.28 90)
 			(effects
 				(font
@@ -1759,6 +1776,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23162"
 			(at 163.83 81.28 0)
 			(effects
 				(font
@@ -1908,6 +1942,23 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C138706"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc267c15-74c5-4357-97e1-7ae0a01ff3c2")
 		)
@@ -1960,7 +2011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.8k"
+		(property "Value" "4.7k"
 			(at 176.53 82.5499 0)
 			(effects
 				(font
@@ -1969,7 +2020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 172.212 81.28 90)
 			(effects
 				(font
@@ -1988,6 +2039,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23162"
 			(at 173.99 81.28 0)
 			(effects
 				(font

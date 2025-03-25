@@ -1705,10 +1705,6 @@
 		(uuid "040214c2-cc62-4c58-8014-ca0c3357a1ab")
 	)
 	(no_connect
-		(at 60.96 82.55)
-		(uuid "651d0ff5-7c32-4924-964b-bc2e762c5ef5")
-	)
-	(no_connect
 		(at 48.26 74.93)
 		(uuid "7e2bec01-aa55-4a67-ae51-2193aba37ec0")
 	)
@@ -1895,6 +1891,16 @@
 			(type default)
 		)
 		(uuid "6cc82c37-e996-4041-8615-06b92ee458ec")
+	)
+	(wire
+		(pts
+			(xy 60.96 82.55) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8c4117-afad-4ac1-8eac-2a8eeed111c2")
 	)
 	(wire
 		(pts
@@ -2097,8 +2103,8 @@
 		(uuid "f810eb48-0885-4025-a4be-fda29bd48a89")
 	)
 	(rectangle
-		(start 13.97 24.13)
-		(end 119.38 138.43)
+		(start 16.51 24.13)
+		(end 121.92 138.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -2120,7 +2126,7 @@
 	)
 	(text "THIS CONNECTOR IS RESPONSIBLE FOR INTERFACING WITH THE MICRO MOUSE"
 		(exclude_from_sim no)
-		(at 53.848 134.112 0)
+		(at 56.642 135.382 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2130,7 +2136,7 @@
 	)
 	(text "MAIN CONNECTOR"
 		(exclude_from_sim no)
-		(at 31.242 20.574 0)
+		(at 33.02 22.352 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2692,7 +2698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical"
 			(at 53.34 74.93 0)
 			(effects
 				(font
@@ -3017,6 +3023,73 @@
 			(project ""
 				(path "/47f090c2-d6cf-408b-9ebb-8bc95ae8c454"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 66.04 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b9be912-9206-4ace-bb17-f4d90815f6d2")
+		(property "Reference" "#PWR063"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 69.85 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0282dc55-6e43-4aae-b7fd-03e49422458c")
+		)
+		(instances
+			(project ""
+				(path "/47f090c2-d6cf-408b-9ebb-8bc95ae8c454"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
