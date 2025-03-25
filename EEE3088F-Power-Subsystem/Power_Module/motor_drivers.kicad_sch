@@ -1234,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 99.06) (xy 85.09 99.06)
+			(xy 78.74 99.06) (xy 85.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1484,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 101.6) (xy 200.66 101.6)
+			(xy 193.04 101.6) (xy 200.66 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1564,8 +1564,8 @@
 		)
 		(uuid "8a269a9f-2ee3-4d10-9ec8-b5fb48ad37fd")
 	)
-	(label "VCP"
-		(at 198.12 101.6 0)
+	(label "VCP2"
+		(at 193.04 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1574,7 +1574,7 @@
 		)
 		(uuid "4e386991-4490-4e67-b63b-e4e1da0e7c39")
 	)
-	(label "VCP"
+	(label "VCP2"
 		(at 248.92 104.14 0)
 		(effects
 			(font
@@ -1584,8 +1584,8 @@
 		)
 		(uuid "4ef33e06-dfbb-4eaf-80e7-cf13db0084b1")
 	)
-	(label "VCP"
-		(at 82.55 99.06 0)
+	(label "VCP1"
+		(at 78.74 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1594,7 +1594,7 @@
 		)
 		(uuid "8bbfa3e9-27f9-41e0-9fac-ef67e0698478")
 	)
-	(label "VCP"
+	(label "VCP1"
 		(at 133.35 101.6 0)
 		(effects
 			(font
