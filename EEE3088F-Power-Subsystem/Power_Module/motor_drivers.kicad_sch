@@ -3836,6 +3836,23 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3d6b8a6-2a13-4fac-9bce-0510cdbbc4d9")
 		)
