@@ -801,6 +801,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1214,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 85.09) (xy 223.52 90.17)
+			(xy 223.52 64.77) (xy 223.52 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1231,6 +1376,16 @@
 			(type default)
 		)
 		(uuid "62699328-d996-4786-9f96-5f2a576d4041")
+	)
+	(wire
+		(pts
+			(xy 223.52 78.74) (xy 223.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b75815-caa6-4511-874c-2fe648f66233")
 	)
 	(wire
 		(pts
@@ -1354,6 +1509,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 80.01) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28e03a0-f6aa-4934-9e90-2d2f016f454f")
+	)
+	(wire
+		(pts
 			(xy 194.31 119.38) (xy 200.66 119.38)
 		)
 		(stroke
@@ -1444,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 107.95 87.63)
+			(xy 107.95 67.31) (xy 107.95 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +1791,7 @@
 	)
 	(global_label "LOAD"
 		(shape input)
-		(at 223.52 85.09 90)
+		(at 223.52 64.77 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1636,7 +1801,7 @@
 		)
 		(uuid "07e0a77d-ef94-4f1b-bdce-9a999cc245bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 77.3876 90)
+			(at 223.52 57.0676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +2055,7 @@
 	)
 	(global_label "LOAD"
 		(shape input)
-		(at 107.95 82.55 90)
+		(at 107.95 67.31 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1900,7 +2065,7 @@
 		)
 		(uuid "97e4fe4e-775d-465d-b909-6334c8b9652a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 74.8476 90)
+			(at 107.95 59.6076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,6 +2422,76 @@
 			(project "Power_Module"
 				(path "/47f090c2-d6cf-408b-9ebb-8bc95ae8c454/44f9c35f-c02b-4a36-a19b-53d6f76266d0"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 107.95 74.93 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e993bd9-8da4-43b9-8db7-1ceeba8b36a8")
+		(property "Reference" "JP12"
+			(at 109.22 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+M1_in"
+			(at 109.22 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a31d6008-5207-4ea9-9786-ce36842f108e")
+		)
+		(pin "2"
+			(uuid "6cc2f994-c535-4b72-926f-7b144acc56f0")
+		)
+		(instances
+			(project "Power_Module"
+				(path "/47f090c2-d6cf-408b-9ebb-8bc95ae8c454/44f9c35f-c02b-4a36-a19b-53d6f76266d0"
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -3611,6 +3846,76 @@
 			(project "Power_Module"
 				(path "/47f090c2-d6cf-408b-9ebb-8bc95ae8c454/44f9c35f-c02b-4a36-a19b-53d6f76266d0"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 223.52 73.66 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fad3d66f-14e2-4738-a4b7-193d7d6226ad")
+		(property "Reference" "JP13"
+			(at 224.79 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+M2_in"
+			(at 224.79 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c8e28aa-5cb3-46ff-b1dd-b38087181349")
+		)
+		(pin "2"
+			(uuid "53ccf96f-cbea-43be-a697-810a14beeff4")
+		)
+		(instances
+			(project "Power_Module"
+				(path "/47f090c2-d6cf-408b-9ebb-8bc95ae8c454/44f9c35f-c02b-4a36-a19b-53d6f76266d0"
+					(reference "JP13")
 					(unit 1)
 				)
 			)
