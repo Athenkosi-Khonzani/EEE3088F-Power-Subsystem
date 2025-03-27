@@ -1855,7 +1855,7 @@
 			)
 		)
 	)
-	(global_label "M1_A_OUT"
+	(global_label "M1_B_OUT"
 		(shape output)
 		(at 124.46 111.76 0)
 		(fields_autoplaced yes)
@@ -1867,7 +1867,7 @@
 		)
 		(uuid "1e6a39b9-3a03-4577-a99d-dc12a2cd5981")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.7585 111.76 0)
+			(at 136.9399 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
