@@ -7,10 +7,10 @@ This project involves the design, development, and testing of a power module for
 ---
 
 ## ⚙️ Features  
-- 🔋 **Battery Charging Circuitry** – Safely charges a lithium-ion battery using onboard circuitry (e.g., USB-C interface).  
+- 🔋 **Battery Charging Circuitry** – Safely charges a lithium-ion battery using onboard circuitry (USB-C interface with USB hosting).  
 - ⚡ **Power Distribution** – Provides regulated power to motors, sensors, processor, and other modules.  
 - 🚗 **Motor Power Handling** – Supports high-current outputs required for driving motors.  
-- 🧷 **System ON/OFF Control** – Enables user-friendly and safe switching of the robot’s power state.  
+- 🧷 **Load Switches** – Supports additional switches to be used when required to drive high power loads.  
 - 🔌 **USB-C Power Input** – Supports external USB-C charging and system powering.  
 - 📉 **State-of-Charge (SOC) Monitoring** – Monitors battery voltage levels for feedback and safety. 
 
