@@ -12,8 +12,7 @@ This project involves the design, development, and testing of a power module for
 - 🚗 **Motor Power Handling** – Supports high-current outputs required for driving motors.  
 - 🧷 **System ON/OFF Control** – Enables user-friendly and safe switching of the robot’s power state.  
 - 🔌 **USB-C Power Input** – Supports external USB-C charging and system powering.  
-- 📉 **State-of-Charge (SOC) Monitoring** – Monitors battery voltage levels for feedback and safety.  
-- 🛡️ **Protection Mechanisms** – Includes over-current, over-voltage, and under-voltage protection.
+- 📉 **State-of-Charge (SOC) Monitoring** – Monitors battery voltage levels for feedback and safety. 
 
 ---
 
